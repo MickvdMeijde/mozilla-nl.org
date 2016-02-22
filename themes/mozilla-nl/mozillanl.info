@@ -1,0 +1,17 @@
+name = Mozilla-nl
+description = Mozilla-nl theme
+screenshot = screenshot.png
+version = 7.x-dev
+core = 7.x
+engine = phptemplate
+
+regions[header] = Header
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = Sidebar
+regions[footer] = Footer
+regions[footer_right] = Right Footer
+
+stylesheets[all][] = modules.css
+stylesheets[all][] = sandstone.css
